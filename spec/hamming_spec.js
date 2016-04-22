@@ -6,7 +6,7 @@ describe('A program to compute Hamming distance', function () {
     expect(hamming.compute('A', 'A')).toEqual(0);
   });
 
-  xit('can compute hamming distance for a single nucleotide strand', function () {
+  it('can compute hamming distance for a single nucleotide strand', function () {
     expect(hamming.compute('A','G')).toEqual(1);
   });
 
